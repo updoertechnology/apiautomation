@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.api.test.VerifyAssets_Events_Bundle_APIs">
+        <methods>
+          <include name="verifyFindInvalidEvents"/>
+          <include name="readValuesFromConfigFile"/>
+          <include name="verifyEventCreationWithValidData"/>
+          <include name="verifyAssetCreationWithValidData"/>
+        </methods>
+      </class> <!-- com.api.test.VerifyAssets_Events_Bundle_APIs -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,24 @@
+{
+	"token": {
+		"validUntil": 1546300800
+	},
+		"InvalidTimestampToken": {
+		"validUntil": 1533145073
+	},
+
+	"accounts": {
+		"address": "0xC3Df63EddB0b81438EAfef2eAFCB6e7f915fbeC5",
+		"permissions": [
+			"register_account",
+			"create_entity"
+		],
+		"accessLevel": 0
+	}
+	
+	"requestOtp":{
+    "identifier":"{{phoneNumber}}",
+    "publicKey":"fdsfsdfdssf",
+    "accountIdentifierType":"phone"
+	}
+
+}

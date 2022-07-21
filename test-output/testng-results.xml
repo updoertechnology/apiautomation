@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="18" total="19" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Token has been successfully created..!!]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2520" started-at="2018-09-04T16:30:56Z" finished-at="2018-09-04T16:30:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2520" started-at="2018-09-04T16:30:56Z" finished-at="2018-09-04T16:30:58Z">
+      <class name="com.api.test.VerifyToken_Account_APIs">
+        <test-method status="PASS" signature="readValuesFromConfigFile()[pri:0, instance:com.api.test.VerifyToken_Account_APIs@224edc67]" name="readValuesFromConfigFile" is-config="true" duration-ms="14" started-at="2018-09-04T16:30:56Z" finished-at="2018-09-04T16:30:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readValuesFromConfigFile -->
+        <test-method status="PASS" signature="verifyTokenWithValidTimestamp()[pri:0, instance:com.api.test.VerifyToken_Account_APIs@224edc67]" name="verifyTokenWithValidTimestamp" duration-ms="2483" started-at="2018-09-04T16:30:56Z" finished-at="2018-09-04T16:30:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Token has been successfully created..!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTokenWithValidTimestamp -->
+      </class> <!-- com.api.test.VerifyToken_Account_APIs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" verbose="10">
+
+	<test name="Ambrosus_API" preserve-order="true" verbose="2">
+		<classes>
+			<class name="com.api.test.VerifyAssets_Events_Bundle_APIs" />
+			<class name="com.api.test.VerifyToken_Account_APIs" />
+			
+		</classes>
+	</test>
+
+</suite>
